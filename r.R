@@ -16,7 +16,7 @@ for(i in c(1:30000)){
 }
 data1<-na.omit(data1)
 #write.csv(data1,file="t.csv")
-#========================================================以上是前處理
+
 data<-read.csv("C:/Users/user/Desktop/t.csv")
 
 data<-data[,-1]
